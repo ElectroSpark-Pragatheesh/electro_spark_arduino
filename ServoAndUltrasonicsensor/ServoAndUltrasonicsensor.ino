@@ -41,7 +41,7 @@ void loop() {
     digitalWrite(redLed, LOW);
     digitalWrite(greenLed, HIGH);
     gateServo.write(90);     // Open gate
-    delay(2000);             // Wait 5 sec
+    delay(2000);             // Wait 2 sec
     gateServo.write(0);      // Close gate
     digitalWrite(greenLed, LOW);
     digitalWrite(redLed, HIGH);
